@@ -1,0 +1,4 @@
+git --version (check version of git)
+git pull (pull latest code from repo)
+git commit (commit code to the repo)
+git push (push code to the repo)
