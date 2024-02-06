@@ -42,7 +42,7 @@ As Kanye West said:
 
 Inline code and syntax highlighting:
 Inline `code` has `back-ticks around` it.
-```javascript
+```javascript''' 
 var s = "JavaScript syntax highlighting";
 alert(s);
 s = "Python syntax highlighting"
