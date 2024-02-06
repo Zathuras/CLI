@@ -4,4 +4,5 @@ git commit (commit code to the repo)
 git push (push code to the repo)
 
 git init (initalize repo)
-git remote add origin: https://github.com/Zathuras/CLI.git
+git remote add origin https://github.com/Zathuras/CLI.git (specify origin or repo)
+
