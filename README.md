@@ -2,13 +2,13 @@
 
 ## This repo is a collection of commands for learning purposes
 
-### 7. **Task Lists**
+### **Task List**
 ```markdown
 - [x] this is a complete item
 - [ ] this is an incomplete item
 ```
 
-Tables:
+### **Tables:**
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
