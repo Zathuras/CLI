@@ -40,18 +40,11 @@ As Kanye West said:
 > We're living the future so
 > the present is our past.
 
-Inline code and syntax highlighting:
-Inline `code` has `back-ticks around` it.
-```javascript''' 
-var s = "JavaScript syntax highlighting";
-alert(s);
-s = "Python syntax highlighting"
-print(s)
-(Note: Remove the extra backticks in the JavaScript and Python code blocks example when you paste it into your README. They are used here to escape the code block within the markdown example.)
 ### 7. **Task Lists**
 ```markdown
 - [x] this is a complete item
 - [ ] this is an incomplete item
+```
 
 Tables:
 | Tables        | Are           | Cool  |
@@ -59,9 +52,6 @@ Tables:
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
-
-
-
 
 
 :smile: :+1: :sparkles: :camel: :tada: :rocket: :metal: :octocat:
