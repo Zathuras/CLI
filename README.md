@@ -3,7 +3,7 @@
 ## This repo is a collection of commands for learning purposes
 
 
-# README COMMANDS
+# README COMMANDS:
 
 ### **Headers**: 
 # This is an <h1> tag
