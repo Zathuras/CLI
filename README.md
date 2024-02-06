@@ -4,8 +4,6 @@
 
 ## README COMMANDS
 
-
-
 ### **Headers**: 
 # This is an <h1> tag
 ## This is an <h2> tag
@@ -15,27 +13,27 @@
 ###### This is an <h6> tag
 
 
-Emphasis:
+### **Emphasis:**
 *This text will be italic*
 _This will also be italic_
 **This text will be bold**
 __This will also be bold__
 _You **can** combine them_
 
-Lists: 
+### **Lists:**
 * Item 1
 * Item 2
   * Item 2a
   * Item 2b
 
-Ordered List:
+### **Ordered List:**
 1. Item 1
 2. Item 2
 3. Item 3
    1. Item 3a
    2. Item 3b
 
-### **Task List**
+### **Task List:**
 ```markdown
 - [x] this is a complete item
 - [ ] this is an incomplete item
