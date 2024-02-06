@@ -2,7 +2,12 @@ git --version (check version of git)
 git pull (pull latest code from repo)
 git commit (commit code to the repo)
 git push (push code to the repo)
+git add (add something to repo)
 
 git init (initalize repo)
 git remote add origin https://github.com/Zathuras/CLI.git (specify origin or repo)
+git push --set-upstream origin master
 
+Example:
+git add .
+git commit -m "1st commmit"
