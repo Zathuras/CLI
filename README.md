@@ -2,44 +2,6 @@
 
 ## This repo is a collection of commands for learning purposes
 
-Headers: 
-# This is an <h1> tag
-## This is an <h2> tag
-### This is an <h3> tag
-#### This is an <h4> tag
-##### This is an <h5> tag
-###### This is an <h6> tag
-
-Emphasis:
-*This text will be italic*
-_This will also be italic_
-**This text will be bold**
-__This will also be bold__
-_You **can** combine them_
-
-Lists: 
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-
-Ordered List:
-1. Item 1
-2. Item 2
-3. Item 3
-   1. Item 3a
-   2. Item 3b
-
-Images and Links:
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-[GitHub](http://github.com)
-
-Block Quotes:
-As Kanye West said:
-> We're living the future so
-> the present is our past.
-
 ### 7. **Task Lists**
 ```markdown
 - [x] this is a complete item
