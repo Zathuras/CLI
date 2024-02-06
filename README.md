@@ -32,6 +32,26 @@ _You **can** combine them_
 3. Item 3
    1. Item 3a
    2. Item 3b
+  
+### **Images and Links:**
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+[GitHub](http://github.com)
+
+### **Block Quotes:**
+As Kanye West said:
+> We're living the future so
+> the present is our past.
+
+#### **Inline code and syntax highlighting:**
+Inline `code` has `back-ticks around` it.
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+s = "Python syntax highlighting"
+print(s)
+```
+
 
 ### **Task List:**
 ```markdown
