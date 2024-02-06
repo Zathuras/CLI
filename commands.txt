@@ -1,0 +1,69 @@
+cd - change location
+pwd - print working director
+ls - check files
+mkdir - make directory
+rmdir - remove directory
+rm - remove
+clear - clear screen
+man - manual
+nano - file editor
+vim - file editor
+touch - create a file
+cat - print out a file
+emacs
+ls -al - list all directorys in list format
+head -# (file.txt) - list the first 3 elements in the file
+tail -# (file.txt) - list the last 3 elements in the file
+less (file.txt) - like nano but read 
+wc -l (file.txt) - how to check how many lines are in the file
+wc -w (file.txt) check how many words are in the file
+wc -c (file.txt) check how many characters are in the file
+grep (global regular expression print) - match and find any text in the input and print it
+grep ex: cat file.txt | grep berry(Search word)
+sort - sorts the file in alphabetical order
+uniq - strip duplicate adjacent lines 
+uniq ex: cat file.txt | uniq berry
+pipe - move data into a different file or output
+pipe ex: cat fruits.txt | sort $xarg | uniq | wc -l $xarg
+$xarg - temporary file name
+find - search file system
+find ex: find *.java (file or extention) (you can also do text as well)
+ls /etc/ | less - search a directory but get less output
+cut - remove a section from each line of file
+> - output information elsewhere
+> ex: cat file.txt | grep berry > newfile.txt
+>> - append to the existing file
+>> ex: cat file.txt | grep berry >> newfile.txt
+2> - records logs or errors to a file 
+2> ex: cat fruit.txt 2> caterror.txt
+2>&1 - print error on screen and input it into a file
+2>&1 ex: cat frut.txt 2>&1 caterror.txt
+| - pipe output into a file or new command
+| ex: cat fruits.txt | sort 
+&& - run multiple commands
+&& ex: grep "avo" berries.txt && wc -l $xarg (count amount of berrys with avo then print the output)
+; - after doing one command do another and dont move data from first to second command
+; ex: cat fruits.txt ; sort fruits.txt
+; ex: cat fruits.txt ; sort (this command will expect input which can be stopped with ctrl + d to stop input and recive output)
+. -> current directory
+.. -> parent directory
+~ -> home directory
+
+Vi Basics:
+:w - write
+:wq - write and save then quit
+:q! - quit without saving
+i - insert mode to put in text
+Esc - Go back to normal mode
+hjkl - Move cursor left, down, up, right
+u - undo last change
+x - delete character
+ESC A - append to the end of current line
+ESC I - Insert to the beginning of current line
+:n - Go to the end of file n-th
+:0 - Go to the beginning of file
+:$ - Go to the end of file
+/text - Search for the text
+ESC gg - same as :0
+ESC G - Same as :$
+ 
