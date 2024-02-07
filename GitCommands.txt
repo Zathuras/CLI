@@ -6,8 +6,10 @@ git add (add something to repo)
 
 git init (initalize repo)
 git remote add origin https://github.com/Zathuras/CLI.git (specify origin or repo)
+git config --local user.email "githubemail@email.com"
+git config --local user.name "John Doe"
 git push --set-upstream origin master
-
+rm -r .git (remove entire repo)
 Example:
 git add .
 git commit -m "1st commmit"
