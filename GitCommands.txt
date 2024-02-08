@@ -19,3 +19,21 @@ git log --all
 git config --list
 git push --set-upstream origin main (Cannot use username and password must use token: https://github.com/settings/tokens)
 git push --set-upstream origin main (Enter username then generated token)
+
+Example of setup:
+mkdir my-test-project
+cd my-test-project
+git init
+git branch -M main
+git config --local user.email
+git config --local user.email "email@Example.com"
+git config --local user.name "Zathuras"
+git remote add origin "https://github.com/Zathuras/my-test-project.git"
+git config --list
+touch README
+git add README 
+git commit -m "first commit"
+git push --set-upstream origin main
+(A file must be created in the repo before you can use git push)
+
+
