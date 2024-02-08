@@ -13,3 +13,4 @@ rm -r .git (remove entire repo)
 Example:
 git add .
 git commit -m "1st commmit"
+git status
