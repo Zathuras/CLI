@@ -17,3 +17,5 @@ git status
 git commit -m "version 3 - new feature"
 git log --all
 git config --list
+git push --set-upstream origin main (Cannot use username and password must use token: https://github.com/settings/tokens)
+git push --set-upstream origin main (Enter username then generated token)
