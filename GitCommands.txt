@@ -14,3 +14,6 @@ Example:
 git add .
 git commit -m "1st commmit"
 git status
+git commit -m "version 3 - new feature"
+git log --all
+git config --list
