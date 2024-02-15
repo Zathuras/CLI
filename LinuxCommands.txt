@@ -48,6 +48,10 @@ cut - remove a section from each line of file
 . -> current directory
 .. -> parent directory
 ~ -> home directory
+? - display all of the elements after the previous character beginning with ?
+? ex: ls file?.txt
+[] - display a range of items
+[] ex: grep "(200[[:digit:]])" movies.txt
 
 Vi Basics:
 :w - write
