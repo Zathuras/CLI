@@ -1,4 +1,4 @@
-git --version (check version of git)
+sgit --version (check version of git)
 git pull (pull latest code from repo)
 git commit (commit code to the repo)
 git push (push code to the repo)
@@ -48,5 +48,9 @@ Add to that branch:
 touch d.txt
 git add d.txt
 git commit -m "first commit"
+
+Check logs:
+git log --graph
+git log --all --raph --oneline
 
 
