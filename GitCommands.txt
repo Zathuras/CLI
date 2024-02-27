@@ -53,4 +53,8 @@ Check logs:
 git log --graph
 git log --all --raph --oneline
 
+Check and switch branch:
+git branch
+git checkout (branch name)
+
 
