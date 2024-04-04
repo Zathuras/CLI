@@ -45,6 +45,7 @@ grep flags:
 -l Suppress normal output; instead print the name of each input file from which output would normally>
 -o Print only the matched (non-empty) parts of a matching line
 -E Interpret PATTERNS as extended regular expressions (EREs, see below).
+-P Interpret I<PATTERNS> as Perl-compatible regular expressions (PCREs) (a|b|c|d|e|f|g)
 
 
 Redirecting streams:
