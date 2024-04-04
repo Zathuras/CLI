@@ -54,10 +54,6 @@ cut - remove a section from each line of file
 [] - display a range of items
 [] ex: grep "(200[[:digit:]])" movies.txt
 
-
-
-
-
 Function commands:
 pwd -> check working directory
 ls -> list contents of inside of a directory
