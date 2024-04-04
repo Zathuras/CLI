@@ -85,5 +85,5 @@ Control Operators:
 
 
 for loops:
-for i in $(seq 51 100) "file${i}.txt; 
+for i in $(seq 1 100) "file${i}.txt; 
 for i in $(seq 1 100); do mv "file${i}.txt" "file${i}.dat"
