@@ -31,6 +31,21 @@ sort -> sort file ascending/descending order input lines
 find -> List all the files that march keywords
 grep -> list all the lines of file containing keyword
 
+grep flags:
+-w Select only those lines containing matches that form whole words.
+-i Ignore case distinctions in patterns and input data, so that characters that differ only in case m>
+-F Interpret PATTERNS as fixed strings, not regular expressions.
+-f FILE Obtain patterns from FILE, one per line
+-n Prefix each line of output with the 1-based line number within its input file.
+-m NUM Stop reading a file after NUM matching lines.
+-c Suppress normal output; instead print a count of matching lines for each input file.
+-x Select only those matches that exactly match the whole line.
+-v Invert the sense of matching, to select non-matching lines.
+-H Print the file name for each match. This is the default when there is more than one file to search.
+-l Suppress normal output; instead print the name of each input file from which output would normally>
+-o Print only the matched (non-empty) parts of a matching line
+-E Interpret PATTERNS as extended regular expressions (EREs, see below).
+
 
 Redirecting streams:
 < redirect input for the command
