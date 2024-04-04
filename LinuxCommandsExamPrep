@@ -1,0 +1,70 @@
+Function commands:
+pwd -> check working directory
+ls -> list contents of inside of a directory
+cd -> change directory
+mkdir -> create a directory
+rmdir - remove a directory
+touch -> create an empty file
+rm -> remove (directory or file)
+mv -> move a file to another place
+cp -> copy another file 
+scp -> copy to/from remote server
+wget -> download from online
+clear -> clear the terminal
+find -> search for files or strings within a directory
+awk -> analyze patterns in files
+xargs -> reads files from standard input
+grep -> global regular expression print used for printing out text in a file
+tee -> reads from standard input
+sed -> stream editor
+
+Print commands:
+cat -> Display content of a file
+head -> Display beginning 
+tail -> Display sending of a file
+less -> Display file with interactive screen
+more -> Display file with interactive screen
+diff -> Check difference between two files
+wc -> ount words/lines/characters in a file
+uniq -> strip out duplicate lines
+sort -> sort file ascending/descending order input lines
+find -> List all the files that march keywords
+grep -> list all the lines of file containing keyword
+
+
+Redirecting streams:
+< redirect input for the command
+> redirect output for the command
+>> redirect output without removing old content of output
+| redirect outcomes of command to another command
+
+Regular Expression:
+Syntax:      Funcitonality:
+.            Any character
+^            Start of line
+$            End of the line
+\<           Start of word
+\>           End of word
+\            Escape after characters
+i            Flag to grep inside
+|            Logical or
+*            Zero or more
++            One or more
+?            Zero or one
+()           Group together
+[]           Character set 
+[^]          Neg character set
+[a-z]        All lowercase
+[A-Z]        All uppercase
+[0-9]        All digits
+\|           Back reference -> earlier
+{n}          Matches exactly n occurences
+{n,}         Matches preceding Element
+{n,m}        Matches n to an element
+
+
+Control Operators:
+; -> concatenate commands
+&& -> run second if first succeeds
+|| -> run second if first error
+
